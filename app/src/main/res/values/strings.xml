@@ -1,0 +1,604 @@
+<resources>
+    <string name="app_name">Saot-Ilokano</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    // ----------------Labels----------------------
+    <string name="general_conversation">General Conversation</string>
+    <string name="complimentary_phrases">Complimentary Phrases</string>
+    <string name="basic_greetings">Basic Greetings</string>
+    <string name="people_and_family">People and Family</string>
+    <string name="things">Things</string>
+    <string name="phrases_for_dining">Phrases for Dining</string>
+    <string name="time_and_date">Time and Date</string>
+    <string name="direction_and_places">Direction and Places</string>
+    <string name="accommodation">Accommodation</string>
+    <string name="shopping">Shopping</string>
+    <string name="emergency">Emergency</string>
+    <string name="tourist_and_attraction">Tourist and Attraction</string>
+    <string name="numbers">Numbers</string>
+    <string name="learn_ilokano">Learn Ilokano</string>
+
+    // ------------------About us Strings------------------
+    <string name="AB">About US</string>
+    <string name="about_us">
+        We are the Grade 12 ICT-MAWD(Mobile App and Web Development) students of STI College Laoag. We are the developers of the application called Saot-Ilokano.
+        Our goal is to improve our service and give satisfaction to our customers.
+    </string>
+    <string name="CU">Contact Us</string>
+    <string name="EM">Email</string>
+    <string name="PH">Phone</string>
+    <string name="email">
+        saotilokano@gmail.com
+    </string>
+    <string name="phone">
+        09282206760
+    </string>
+
+    <string name="OV">Overview</string>
+    <string name="OVinfo">Saot-Ilokano is an easy to use mobile Ilokano Phrasebook that will give visitors to Ilocos Norte and those who are interested in learning Ilokano a good start in the language. Saot-Ilokano is recorded
+    using native speaker and we have tried our best to be authentic in the pronunciation whilst ensuring it is easy to understand. Recommended app for tourist and business people visiting Ilocos Norte.</string>
+
+
+    //-------------General Greeting WORDS---------------
+    //23 words
+    <string-array name="value1">
+        <item>Yes</item>
+        <item>No</item>
+        <item>Do you understand?</item>
+        <item>I understand</item>
+        <item>Thank you</item>
+        <item>Please</item>
+        <item>I’m sorry</item>
+        <item>Please say that again</item>
+        <item>Can you speak slowly?</item>
+        <item>I’m good</item>
+        <item>I don’t know</item>
+        <item>You’re welcome.</item>
+        <item>That’s right</item>
+        <item>No problem</item>
+        <item>Who?</item>
+        <item>What?</item>
+        <item>How many?</item>
+        <item>How much?</item>
+        <item>Why?</item>
+        <item>Which?</item>
+        <item>Where?</item>
+        <item>When?</item>
+    </string-array>
+
+    <string-array name="value2">
+        <item>Wen</item>
+        <item>Saan</item>
+        <item>Naawatam? Natarusam?</item>
+        <item>Naawatak, Natarusak</item>
+        <item>Agyaman nak</item>
+        <item>Pangngaasim</item>
+        <item>Agpakawan nak, Pakawanen nak, Dispensaren nak</item>
+        <item>Ulitem man ti imbagam?</item>
+        <item>Ibaybayag mo man ti agsao?</item>
+        <item>Nasayaat nak met</item>
+        <item>Diak ammo</item>
+        <item>Awan ti aniaman na.</item>
+        <item>Pudno/Usto/Umno dayta</item>
+        <item>Awan ti problema</item>
+        <item>Sia-sino?</item>
+        <item>Ania?</item>
+        <item>Mano?</item>
+        <item>Sagmamano?</item>
+        <item>Apay?</item>
+        <item>Ania kadagitoy?</item>
+        <item>Sadino?</item>
+        <item>Caano?</item>
+
+    </string-array>
+
+
+    //-------------Complimentary Phrases----------------
+    //15 words
+    <string-array name="CO1">
+        <item>You’re so fast.</item>
+        <item>Your voice is beautiful.</item>
+        <item>You’re smart </item>
+        <item>You’re strong.</item>
+        <item>You’re diligent</item>
+        <item>That color is perfect on you.</item>
+        <item>I like your hair.</item>
+        <item>I appreciate you.</item>
+        <item>You look beautiful.</item>
+        <item>You look handsome. </item>
+        <item>You’re polite.</item>
+        <item>You won. </item>
+
+    </string-array>
+    <string-array name="CO2">
+        <item>Nagalisto ka.</item>
+        <item>Ti boses mo ket napintas.</item>
+        <item>Naglaing ka</item>
+        <item>Nagpisgsa ka</item>
+        <item>Nagaget ka </item>
+        <item>Dayta a maris ket perpekto kenka.</item>
+        <item>Magustwak dayta buok mo.</item>
+        <item>Apresyaren ka.</item>
+        <item>Napintas ka.</item>
+        <item>Nag taraki ka. </item>
+        <item>Nadayaw ka.</item>
+        <item>Nangabak ka. </item>
+
+
+
+    </string-array>
+
+    //-----------Basic Greetings--------------------
+    // 10 words
+    <string-array name="BA1">
+        <item>Good morning</item>
+        <item>Good afternoon</item>
+        <item>Good evening</item>
+        <item>Hello</item>
+        <item>Welcome</item>
+        <item>Take care</item>
+        <item>Merry Christmas</item>
+        <item>Happy Birthday</item>
+        <item>Farewell</item>
+        <item>See you tomorrow!</item>
+
+    </string-array>
+    <string-array name="BA2">
+        <item>Naimbag a bigat</item>
+        <item>Naimbag a malem </item>
+        <item>Naimbag a rabii</item>
+        <item>Kablaaw</item>
+        <item>Naragsac nga isasangpet</item>
+        <item>Agan-anad ka</item>
+        <item>Naragsac a Pascua</item>
+        <item>Naragsac a Panagcasangay</item>
+        <item>Agpacada nakon</item>
+        <item>Agkita ta nu bigat!</item>
+
+    </string-array>
+
+    //----------People and Family-------------------
+    //23 words
+    <string-array name="PA1">
+        <item>Aunt</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Child </item>
+        <item>Cousin </item>
+        <item>Daughter</item>
+        <item>Family</item>
+        <item>Father</item>
+        <item>Grandfather</item>
+        <item>Grandmother</item>
+        <item>Husband </item>
+        <item>Man</item>
+        <item>Mother</item>
+        <item>Son</item>
+        <item>Uncle</item>
+        <item>Wife</item>
+        <item>Woman </item>
+        <item>Eldest Sister</item>
+        <item>Eldest Brother</item>
+        <item>Nephew/Niece</item>
+        <item>Younger sibling</item>
+        <item>Friend</item>
+        <item>Parent</item>
+
+
+    </string-array>
+    <string-array name="PA2">
+        <item>Ikit</item>
+        <item>Cabsat a lalaki </item>
+        <item>Cabsat a babai </item>
+        <item>Ubing </item>
+        <item>Casin-sin </item>
+        <item>Anac a babai</item>
+        <item>Familia</item>
+        <item>Tatang</item>
+        <item>Lolong</item>
+        <item>Lolang</item>
+        <item>Asawa a lalaki </item>
+        <item>Lalaki </item>
+        <item>Nanang</item>
+        <item>Anac a lalaki</item>
+        <item>Uliteg</item>
+        <item>Asawa a babai </item>
+        <item>Babai </item>
+        <item>Manang</item>
+        <item>Manong</item>
+        <item>Caanacan</item>
+        <item>Ading</item>
+        <item>Gayyem</item>
+        <item>Naganac</item>
+
+
+    </string-array>
+
+    //--------------Things--------------------
+    //16 words
+    <string-array name="TH1">
+        <item>Plant</item>
+        <item>Vehicle</item>
+        <item>Clothes</item>
+        <item>Money</item>
+        <item>Blanket</item>
+        <item>Book</item>
+        <item>Glass</item>
+        <item>Spoon</item>
+        <item>Fork</item>
+        <item>Soap</item>
+        <item>Towel</item>
+        <item>Box</item>
+        <item>Knife</item>
+        <item>Pillow</item>
+        <item>Bottle</item>
+        <item>Chair </item>
+        <item>Table</item>
+
+    </string-array>
+    <string-array name="TH2">
+        <item>Mula</item>
+        <item>Lugan</item>
+        <item>Bado</item>
+        <item>Kwarta</item>
+        <item>Ules</item>
+        <item>Libro</item>
+        <item>Baso</item>
+        <item>Kutsara</item>
+        <item>Tinidor</item>
+        <item>Sabon</item>
+        <item>Tuwalya</item>
+        <item>Karton</item>
+        <item>Kutsilyo</item>
+        <item>Pungan </item>
+        <item>Butelya</item>
+        <item>Pagtugawan</item>
+        <item>Lamisaan</item>
+
+    </string-array>
+
+    //------------Phrases for Dining----------------
+
+    <string-array name="PH1">
+        <item>Let’s eat!</item>
+        <item>Have you eaten yet?</item>
+        <item>Yes, I just ate. Thanks!</item>
+        <item>Not yet.</item>
+        <item>Your food is so good!</item>
+        <item>Delicious!</item>
+        <item>I’m hungry.</item>
+        <item>I already ate.</item>
+        <item>Where do you want to eat?</item>
+        <item>Eat more.</item>
+        <item>Im done cooking now.</item>
+    </string-array>
+    <string-array name="PH2">
+        <item>Mangan tayon!</item>
+        <item>Nangan kan? </item>
+        <item>Wen, nalpasen. Agyamanak!</item>
+        <item>Haan pay.</item>
+        <item>Nagimas ti sida yo! </item>
+        <item>Naimas!</item>
+        <item>Mabisinakon </item>
+        <item>Nanganakon</item>
+        <item>Ayana kayat mo panganan? </item>
+        <item>Mangan ka pay. </item>
+        <item>Nakaluto akon.</item>
+    </string-array>
+
+    //--------------Direction and Places------------]
+    //39 words
+    <string-array name="DI1">
+        <item>Here</item>
+        <item>There</item>
+        <item>Up</item>
+        <item>Down</item>
+        <item>Above</item>
+        <item>Below</item>
+        <item>Right</item>
+        <item>Left</item>
+        <item>Middle</item>
+        <item>Outside</item>
+        <item>Inside</item>
+        <item>Top</item>
+        <item>Under</item>
+        <item>Front </item>
+        <item>Back </item>
+        <item>Side </item>
+        <item>Beside </item>
+        <item>Around </item>
+        <item>Close </item>
+        <item>Far</item>
+        <item>North </item>
+        <item>East  </item>
+        <item>South </item>
+        <item>West</item>
+        <item>Point it</item>
+        <item>Meet </item>
+        <item>Building </item>
+        <item>Place </item>
+        <item>Lost </item>
+        <item>Where?</item>
+        <item>House</item>
+        <item>School </item>
+        <item>Beach</item>
+        <item>City </item>
+        <item>Eatery </item>
+        <item>Farm </item>
+        <item>Hospital </item>
+        <item>Market </item>
+        <item>Mountain</item>
+
+
+    </string-array>
+    <string-array name="DI2">
+        <item>Idtoy </item>
+        <item>Idiay </item>
+        <item>Agpangato </item>
+        <item>Agpababa </item>
+        <item>Ngato </item>
+        <item>Baba </item>
+        <item>Kannaawan </item>
+        <item>Kannigid </item>
+        <item>Tengnga </item>
+        <item>Ruar </item>
+        <item>Uneg</item>
+        <item>Rabaw </item>
+        <item>Sirok </item>
+        <item>Sango </item>
+        <item>Likod </item>
+        <item>Sikig </item>
+        <item>Abay </item>
+        <item>Lawlaw </item>
+        <item>Asideg </item>
+        <item>Adayo </item>
+        <item>Amianan </item>
+        <item>Daya</item>
+        <item>Abagatan </item>
+        <item>Laod</item>
+        <item>Itudom </item>
+        <item>Agkita </item>
+        <item>Pasdek </item>
+        <item>Lugar </item>
+        <item>Napukaw </item>
+        <item>Ayan na? </item>
+        <item>Balay </item>
+        <item>Eskwela </item>
+        <item>Baybay </item>
+        <item>Syudad </item>
+        <item>Panganan </item>
+        <item>Taltalon </item>
+        <item>Ospital </item>
+        <item>Tiendaan </item>
+        <item>Bantay </item>
+    </string-array>
+
+
+    //------------EMERGENCY-------------
+    //16 words
+    <string-array name="EM1">
+        <item>Help!</item>
+        <item>Thief</item>
+        <item>Stop!</item>
+        <item>Be careful</item>
+        <item>Ambulance</item>
+        <item>Hospital</item>
+        <item>Emergency</item>
+        <item>Fire!</item>
+        <item>I’m lost</item>
+        <item>Police </item>
+        <item>Where is the nearest police station?</item>
+        <item>Where is the hospital?</item>
+        <item>Call a doctor!</item>
+        <item>Call an ambulance!</item>
+        <item>Could you help me please?</item>
+        <item>I’ve lost my things.</item>
+    </string-array>
+    <string-array name="EM2">
+        <item>Tulong!</item>
+        <item>Agtatacaw</item>
+        <item>Agsardeng!</item>
+        <item>Agalluadka</item>
+        <item>Ambulansya</item>
+        <item>Ospital </item>
+        <item>Naricut a panawen </item>
+        <item>Puor!</item>
+        <item>Maiyaw-awan nak</item>
+        <item>Policia </item>
+        <item>Sadino ti kaasigan nga estacion ti policia?</item>
+        <item>Sadino ti Ospital?</item>
+        <item>Tumawag ka iti mangngagas!</item>
+        <item>Tumawag ka iti ambulansya!</item>
+        <item>Mabalin nak a tulongan?</item>
+        <item>napukaw ko dagiti gam-gamit.</item>
+
+    </string-array>
+
+    //------------Time and Date-------------------
+    // 13 words
+    <string-array name="TI1">
+        <item>Morning</item>
+        <item>Afternoon</item>
+        <item>Evening</item>
+        <item>Today</item>
+        <item>Yesterday</item>
+        <item>Tomorrow</item>
+        <item>Sunday</item>
+        <item>Saturday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+
+    </string-array>
+    <string-array name="TI2">
+        <item>Bigat</item>
+        <item>Malem</item>
+        <item>Rabii</item>
+        <item>Ita nga aldaw.</item>
+        <item>Idi calman</item>
+        <item>Inton bigat</item>
+        <item>Domingo</item>
+        <item>Sabado</item>
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miyerkules</item>
+        <item>Huwebes</item>
+        <item>Biyernes</item>
+
+    </string-array>
+
+    //------------Shopping-----------------
+    //10 words
+    <string-array name="SH1">
+        <item>Discount</item>
+        <item>Expensive</item>
+        <item>Cheap</item>
+        <item>Pay</item>
+        <item>Change</item>
+        <item>I’m just looking </item>
+        <item>Price</item>
+        <item>Money</item>
+        <item>Market </item>
+        <item>Wallet </item>
+    </string-array>
+    <string-array name="SH2">
+        <item>Tawar</item>
+        <item>Nangina</item>
+        <item>Nalaca</item>
+        <item>Bayad</item>
+        <item>Supli</item>
+        <item>Agkitkita nak laeng</item>
+        <item>Presyo</item>
+        <item>Kwarta</item>
+        <item>Tiendaan</item>
+        <item>Pitaka</item>
+
+    </string-array>
+
+    //-----------Accommodation----------------
+    // 10 words
+    <string-array name="AC1">
+        <item>Hotel</item>
+        <item>Nearby</item>
+        <item>Do you have a wifi?</item>
+        <item>What is the password?</item>
+        <item>I’d like to check in.</item>
+        <item>Can I change room?</item>
+        <item>I left my key in the room.</item>
+        <item>I have a room reservation.</item>
+        <item>What time is the check-out?</item>
+        <item>I had a great stay, thank you.</item>
+
+    </string-array>
+    <string-array name="AC2">
+        <item>Pagdagusan</item>
+        <item>Naasideg</item>
+        <item>Adda ba wifi yo?</item>
+        <item>Ania iti password na?</item>
+        <item>Kayat ko ti agcheck-in.</item>
+        <item>Mabalin ko nga baliwan iti kwartok?</item>
+        <item>Nabatic tay tulbec iti uneg ti kwarto.</item>
+        <item>Adda nakareserba a kwartok. </item>
+        <item>Ania nga oras iti check out?</item>
+        <item>Addaan nak iti nasayaat nga panagtaeng, agyaman nak.</item>
+    </string-array>
+    //-----------------Numbers--------------------
+    // 33 words
+    <string-array name="NU1">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+        <item>Seven</item>
+        <item>Eight</item>
+        <item>Nine</item>
+        <item>Ten</item>
+        <item>Eleven</item>
+        <item>Twelve</item>
+        <item>Thirteen</item>
+        <item>Fourteen</item>
+        <item>Fifteen</item>
+        <item>Sixteen</item>
+        <item>Seventeen</item>
+        <item>Eighteen</item>
+        <item>Nineteen</item>
+        <item>Twenty</item>
+        <item>Twenty-one</item>
+        <item>Thirty</item>
+        <item>Forty</item>
+        <item>Fifty</item>
+        <item>Sixty</item>
+        <item>Seventy</item>
+        <item>Eighty</item>
+        <item>Ninety</item>
+        <item>One hundred</item>
+        <item>One hundred and one</item>
+        <item>Five hundred</item>
+        <item>One thousand</item>
+        <item>Ten thousand</item>
+        <item>One hundred thousand</item>
+        <item>One million</item>
+    </string-array>
+    <string-array name="NU2">
+        <item>Maysa </item>
+        <item>Dua </item>
+        <item>Tallo </item>
+        <item>Uppat </item>
+        <item>Lima</item>
+        <item>Innem </item>
+        <item>Pito</item>
+        <item>Walo</item>
+        <item>Siam</item>
+        <item>Sangapulo</item>
+        <item>Sangapulo ket maysa </item>
+        <item>Sangapulo ket  dua </item>
+        <item>Sangapulo ket tallo </item>
+        <item>Sangapulo ket uppat </item>
+        <item>Sangapulo ket lima </item>
+        <item>Sangapulo ket innem </item>
+        <item>Sangapulo ket pito</item>
+        <item>Sangapulo ket walo </item>
+        <item>Sangapulo ket siam</item>
+        <item>Duapulo  </item>
+        <item>Duapulo ket maysa</item>
+        <item>Tallopulo </item>
+        <item>Uppat a pulo</item>
+        <item>Limapulo</item>
+        <item>Innem a pulo</item>
+        <item>Pitopulo</item>
+        <item>Walopulo</item>
+        <item>Siam a pulo </item>
+        <item>Sangagasut </item>
+        <item>Sangagasut ket maysa</item>
+        <item>Limagasut</item>
+        <item>Sangaribo</item>
+        <item>Sangalaksa</item>
+        <item>Sangagasut a laksa</item>
+        <item>Sangariwriw</item>
+
+    </string-array>
+    //---------Tourist attraction-------------
+
+    <string-array name="TO1">
+        <item>Lapaz Sand Dunes </item>
+        <item>The Sinking Bell Tower </item>
+        <item>Malacanang of the North</item>
+        <item>Paoay Church </item>
+        <item>Bacarra Domeless Tower</item>
+        <item>Kapurpurawan rock formation </item>
+        <item>Cape Bojeador Lighthouse</item>
+        <item>Bangui Windmill</item>
+        <item>Patapat Bridge </item>
+        <item>Marcos museum and mausoleum</item>
+        <item>Playa tropical resort </item>
+        <item>Fort Ilocandia resort and casino</item>
+        <item>Juan Luna shrine </item>
+        <item>Saud beach resort and hotel offers </item>
+    </string-array>
+
+
+</resources>

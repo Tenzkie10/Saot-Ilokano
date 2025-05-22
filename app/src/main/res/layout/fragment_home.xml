@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+ >
+
+    <ImageView
+        android:id="@+id/generalConvo"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:onClick="onImageClick"
+        android:src="@drawable/generarl_and_conversation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
+
+    <ImageView
+        android:id="@+id/comphrase"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:onClick="onImageClick1"
+        android:src="@drawable/complimentay"
+        app:layout_constraintStart_toEndOf="@+id/generalConvo"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
+
+        <ImageView
+            android:id="@+id/basicgreet"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:onClick="onImageClick2"
+            android:src="@drawable/basic_greetings"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.039"
+            app:layout_constraintStart_toEndOf="@+id/comphrase"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="OnClick" />
+
+        <ImageView
+            android:id="@+id/peopleandfam"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="24dp"
+            android:onClick="onImageClick3"
+            android:src="@drawable/people_and_family"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/generalConvo"
+            tools:ignore="OnClick" />
+
+        <ImageView
+            android:id="@+id/things"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="24dp"
+            android:onClick="onImageClick4"
+            android:src="@drawable/things"
+            app:layout_constraintStart_toEndOf="@+id/peopleandfam"
+            app:layout_constraintTop_toBottomOf="@+id/comphrase"
+            tools:ignore="OnClick" />
+
+        <ImageView
+            android:id="@+id/dining"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="24dp"
+            android:onClick="onImageClick5"
+            android:src="@drawable/phrases_for_dining"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/things"
+            app:layout_constraintTop_toBottomOf="@+id/basicgreet"
+            tools:ignore="OnClick" />
+
+        <ImageView
+            android:id="@+id/direction"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="24dp"
+            android:onClick="onImageClick6"
+            android:src="@drawable/places_and_direction"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/peopleandfam"
+            tools:ignore="OnClick" />
+
+        <ImageView
+            android:id="@+id/emergency"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="24dp"
+            android:onClick="onImageClick7"
+            android:src="@drawable/emergency"
+            app:layout_constraintStart_toEndOf="@+id/direction"
+            app:layout_constraintTop_toBottomOf="@+id/things"
+            tools:ignore="OnClick" />
+
+        <ImageView
+            android:id="@+id/timeandfamily"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="24dp"
+            android:onClick="onImageClick8"
+            android:src="@drawable/date_n_time"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/emergency"
+            app:layout_constraintTop_toBottomOf="@+id/dining"
+            tools:ignore="OnClick" />
+
+        <ImageView
+            android:id="@+id/shopping"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="24dp"
+            android:onClick="onImageClick9"
+            android:src="@drawable/shopping"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/direction"
+            tools:ignore="OnClick" />
+
+        <ImageView
+            android:id="@+id/accommodation"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="24dp"
+            android:onClick="onImageClick10"
+            android:src="@drawable/accomodation"
+            app:layout_constraintStart_toEndOf="@+id/shopping"
+            app:layout_constraintTop_toBottomOf="@+id/emergency"
+            tools:ignore="OnClick" />
+
+
+        <ImageView
+            android:id="@+id/numbers"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="24dp"
+            android:onClick="onImageClick11"
+            android:src="@drawable/numbers"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/accommodation"
+            app:layout_constraintTop_toBottomOf="@+id/timeandfamily"
+            tools:ignore="OnClick"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="93dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="112dp"
+            android:gravity="center"
+            android:text="General Conversation"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/generalConvo"
+            app:layout_constraintHorizontal_bias="0.592"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/generalConvo" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="112dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="116dp"
+            android:gravity="center"
+            android:text="Complementary  Phrases"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/comphrase"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/generalConvo"
+            app:layout_constraintTop_toTopOf="@+id/comphrase" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="116dp"
+            android:gravity="center"
+            android:text="Basic Greetings"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.171"
+            app:layout_constraintStart_toStartOf="@+id/basicgreet"
+            app:layout_constraintTop_toTopOf="@+id/basicgreet" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="94dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="140dp"
+            android:gravity="center"
+            android:text="People and Family"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/peopleandfam"
+            app:layout_constraintHorizontal_bias="0.423"
+            app:layout_constraintStart_toStartOf="@+id/peopleandfam"
+            app:layout_constraintTop_toBottomOf="@+id/generalConvo" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="144dp"
+            android:text="Things"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/things"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toEndOf="@+id/peopleandfam"
+            app:layout_constraintTop_toBottomOf="@+id/comphrase" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="114dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="140dp"
+            android:gravity="center"
+            android:text="Phrases for Dining"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/dining"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/dining"
+            app:layout_constraintTop_toBottomOf="@+id/basicgreet" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="92dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="132dp"
+            android:gravity="center"
+            android:text="Direction and Places"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/direction"
+            app:layout_constraintHorizontal_bias="0.464"
+            app:layout_constraintStart_toStartOf="@+id/direction"
+            app:layout_constraintTop_toBottomOf="@+id/peopleandfam" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="144dp"
+            android:gravity="center"
+            android:text="Emergency"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/emergency"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toEndOf="@+id/direction"
+            app:layout_constraintTop_toBottomOf="@+id/things" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="144dp"
+            android:text="Time and Date"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/timeandfamily"
+            app:layout_constraintStart_toStartOf="@+id/timeandfamily"
+            app:layout_constraintTop_toBottomOf="@+id/dining" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:gravity="center"
+            android:text="Shopping"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/shopping"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="@+id/shopping"
+            app:layout_constraintTop_toBottomOf="@+id/direction" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="132dp"
+            android:gravity="center"
+            android:text="@string/accommodation"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/accommodation"
+            app:layout_constraintHorizontal_bias="0.384"
+            app:layout_constraintStart_toEndOf="@+id/shopping"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/tvNumbers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="116dp"
+            android:text="Numbers"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/numbers"
+            app:layout_constraintHorizontal_bias="0.409"
+            app:layout_constraintStart_toEndOf="@+id/accommodation"
+            app:layout_constraintTop_toTopOf="@+id/numbers" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

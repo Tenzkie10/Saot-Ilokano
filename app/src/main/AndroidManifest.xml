@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.amedina.saot_ilokano">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SaotIlokano">
+        <activity android:name=".classes.Numbers"
+                android:label="@string/numbers"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".classes.Accommodation"
+            android:label="@string/accommodation"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".classes.Shopping"
+            android:label="@string/shopping"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".classes.TimeandDate"
+            android:label="@string/time_and_date"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".classes.Emergency"
+            android:label="@string/emergency"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".classes.GeneralConversation"
+            android:label="@string/general_conversation"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/learn_ilokano" />
+        <activity
+            android:name=".classes.Direction"
+            android:label="@string/direction_and_places"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".classes.Dining"
+            android:label="@string/phrases_for_dining"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".classes.Things"
+            android:label="@string/things"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".classes.PeopleandFamily"
+            android:label="@string/people_and_family"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".classes.BasicGreetings"
+            android:label="@string/basic_greetings"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".classes.Complimentphrases"
+            android:label="@string/complimentary_phrases"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".splash_screen.SplashScreen"
+            android:exported="true"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".About" />
+    </application>
+
+</manifest>
